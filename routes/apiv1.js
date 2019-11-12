@@ -38,7 +38,7 @@ exports.getWeather = function(req, res) {
 
 };
 router.get('/getWeather', exports.getWeather);
-
+// uncomment below to test a failed gate
 /*
 exports.getWeather2 = function(req, res) {
 	var zip = req.query.zip;
